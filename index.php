@@ -94,14 +94,14 @@
                           <div class="service-box">
                               <i class="fa fa-4x fa-clock-o"></i>
                               <h3>Anytime</h3>
-                              <h4>You can use Bingo Edu anytime 24/7 365!</h4>
+                              <h4>You can use Annex Academy anytime 24/7 365!</h4>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
                           <div class="service-box">
                               <i class="fa fa-4x fa-mobile-phone"></i>
                               <h3>Mobile Friendly</h3>
-                              <h4>Use your mobile device to access Bingo, to keep things fresh.</h4>
+                              <h4>Use your mobile device to access Annex, to keep things fresh.</h4>
                           </div>
                       </div>
                       <div class="col-lg-3 col-md-6 text-center">
