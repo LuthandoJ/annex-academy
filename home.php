@@ -42,16 +42,34 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -80px;">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li class="active"><a href="index.php"><i class="fa fa-dashboard" aria-hidden="true"></i> Dashboard</a></li>
                     <li><a href="tutorials.php"><i class="fa fa-book" aria-hidden="true"></i> Tutorials</a></li>
                     <li><a href="recources.php"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
-                    <li><a href="logout.php"><i class="fa fa-user" aria-hidden="true"></i> Logout</a></li>
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-envelope"></i> Inbox</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-fw fa-gear"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="logout.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                        </li>
+                    </ul>
+                </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
+    
 
     <!-- Page Content -->
     
