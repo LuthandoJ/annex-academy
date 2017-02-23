@@ -1,3 +1,64 @@
+<?php
+    include_once 'assets/include/config.php';
+    session_start();
+
+    if(isset($_SESSION['user_id'])) {
+        header('location:home.php');
+        exit();
+    }
+     $fname = ""; $lname = ""; $email = "";
+     $reg_success = false;
+    if (isset($_POST['reg'])) {
+
+        $errors = array();
+
+        $password = $_POST['password'];
+        $rpassword = $_POST['rpassword'];
+        $fname = validate_input($_POST['fname']);
+        $lname = validate_input($_POST['lname']);
+        $email = validate_input($_POST['email']);
+
+        
+        if ($password == $rpassword) {
+            if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+                if (preg_match("/^[a-zA-Z ]*$/",$fname)) {
+                    if (preg_match("/^[a-zA-Z ]*$/",$lname)) {
+                        
+                        $sql = "SELECT * FROM users WHERE email = '$email'";
+                        $query = $connect->query($sql);
+                        if( !$query->num_rows > 0 ) {
+                            $pass = md5($password);
+                            $sql = "INSERT INTO users (email, first_name, last_name, password) VALUES ('$email', '$fname', '$lname', '$pass')";
+                            $query = $connect->query($sql);
+                            $reg_success = true;
+                            $connect->close();
+                        }else{
+                            $errors[] = '  "User/email already exists"';
+                        }
+                    }else{
+                        $errors[] = '  "Only letters and white space allowed <b>Last Name</b>"';
+                    }
+                }else{
+                    $errors[] = '  "Only letters and white space allowed <b>First Name</b>"';
+                }
+            }else{
+                $errors[] = '  Invalid email address';
+            }
+        }else{
+            $errors[] = '  Passwords don\'t match';
+        }
+
+    }
+
+    function validate_input($data) {
+        $str = trim($data);
+        $str = stripslashes($data);
+        $str = htmlspecialchars($data);
+        return $str;
+    }
+
+
+?>
 <!DOCTYPE html>
 <html class="full" lang="en">
 
@@ -10,7 +71,7 @@
     <meta name="keywords" content="">
     <meta name="author" content="Athi Sithembiso">
 
-    <title>Annex Academy | Login</title>
+    <title>Annex Academy | Register</title>
 
     <!--Favicon-->
      <link rel="icon" type="image/png" href="#">
@@ -23,7 +84,7 @@
 
 <body style="margin-top: 50px;margin-bottom: 50px;background: none;">
     <!-- Navigation -->
-    <div class="navbar navbar-default navbar-static-top" style="margin-top: -100px; background: none;border:none;">
+    <div class="navbar navbar-default navbar-static-top" style="margin-top: -150px; background: none;border:none;">
         <nav class="navbar-inner">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,7 +100,7 @@
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -100px;">
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -80px;">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li><a href="about.php"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
@@ -58,15 +119,81 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <center>
-            <div>
-                <h1>The Big Picture</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+      <div class="row main">
+        <div class="main-login main-center">
+          <form class="form"  method="post" action="register.php">
+                <div>
+                    <?php if(!empty($errors)) {?>
+                            <?php foreach ($errors as $key => $value) {
+                            ?>
+                            <div class='alert alert-warning'><i class='glyphicon glyphicon-warning-sign'></i>
+                            <b>Error:</b> <?php echo $value;
+                            } ?>
+                            </div>
+                <?php } ?>
+                <?php if ($reg_success) {
+                        ?>  <div class='alert alert-success'><i class='glyphicon glyphicon-check'></i> 
+                                <b> Registration Successful:</b> Login <a href="login.php"><strong>here</strong></a>
+                            </div><?php
+                        } ?>
+                </div>
+             <div class="form-group">
+              <label for="fname" class="cols-sm-2 control-label">First Name</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="fname" id="fname"  placeholder="Enter your First Name" required value="<?php echo $fname;?>">
+                </div>
+              </div>
             </div>
-            </center>
+            <div class="form-group">
+              <label for="lname" class="cols-sm-2 control-label">Last Name</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="lname" id="lname"  placeholder="Enter your Last Name" required value="<?php echo $lname;?>">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" class="cols-sm-2 control-label">Email</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email" required value="<?php echo $email;?>">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="password" class="cols-sm-2 control-label">Password</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="rpassword" class="cols-sm-2 control-label">Repeat Password</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="rpassword" id="rpassword"  placeholder="Repeat your Password" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group ">
+              <input type="submit" class="btn btn-success btn-lg btn-block login-button" name = "reg" value="Register" style="border-radius: 0;">
+            </div>
+            <div>
+                <center>
+                    <p>Alredy a member? Login <a href="login.php">here</a></p>
+                </center>
+            </div>
+          </form>
         </div>
-        <!-- /.row -->
+      </div>
     </div>
     
     <!-- jQuery -->
