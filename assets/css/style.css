@@ -8,7 +8,6 @@ body {
 
 .navbar-static-top .navbar-brand {
     padding: 0 15px;
-
 }
 
 @media(min-width:768px) {
@@ -18,7 +17,6 @@ body {
 
     .navbar-static-top .navbar-brand {
         padding: 15px 0;
-
     }
 }
 
