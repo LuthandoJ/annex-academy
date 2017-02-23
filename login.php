@@ -58,15 +58,40 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row">
-            <center>
-            <div>
-                <h1>The Big Picture</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, iusto, unde, sunt incidunt id sapiente rerum soluta voluptate harum veniam fuga odit ea pariatur vel eaque sint sequi tenetur eligendi.</p>
+      <div class="row main">
+        <div class="main-login main-center">
+          <form name="login"  method="post" action="">
+            <div class="form-group">
             </div>
-            </center>
+            <div class="form-group">
+              <label for="email" class="cols-sm-2 control-label">Email</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                  <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="password" class="cols-sm-2 control-label">Password</label>
+              <div class="cols-sm-10">
+                <div class="input-group">
+                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                  <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group ">
+              <input type="submit" class="btn btn-success btn-lg btn-block login-button" name = "submit" value="Login">
+            </div>
+            <div>
+              <p> Dont have an Account?? Register <a href="register.php">Here</a></p>
+            </div>
+          </form>
         </div>
-        <!-- /.row -->
+      </div>
     </div>
     
     <!-- jQuery -->
