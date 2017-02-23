@@ -1,3 +1,45 @@
+<?php
+    
+    include_once "assets/include/config.php";
+    session_start();
+
+    if(isset($_SESSION['user_id'])) {
+        header('location:home.php');
+        exit();
+    }   
+
+    if (isset($_POST['lg'])) {
+        $errors = array();
+        
+        $email = $_POST['email'];
+        $password = md5($_POST['password']);
+
+        $sql = "SELECT * FROM users WHERE email = '$email'";
+        $query = $connect->query($sql);
+        if( $query->num_rows > 0 ) {
+
+            $sql = "SELECT * FROM users WHERE email = '$email' AND password = '$password'";
+            $query = $connect->query($sql);
+            $result = $query->fetch_array();
+
+            $connect->close();
+
+            if($query->num_rows == 1) {             
+                $_SESSION['logged_in'] = true;
+                $_SESSION['user_id'] = $result['id'];
+
+                header('location:home.php');
+                exit();
+            }   
+            else {
+                $errors[] = '  "Username/Password combination is incorrect"';
+            }
+        }   
+        else {
+            $errors[] = '  "User doesn\'t exists"';
+        }
+    } 
+?>
 <!DOCTYPE html>
 <html class="full" lang="en">
 
@@ -23,7 +65,7 @@
 
 <body style="margin-top: 50px;margin-bottom: 50px;background: none;">
     <!-- Navigation -->
-    <div class="navbar navbar-default navbar-static-top" style="margin-top: -100px; background: none;border:none;">
+    <div class="navbar navbar-default navbar-static-top" style="margin-top: -150px; background: none;border:none;">
         <nav class="navbar-inner">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,7 +81,7 @@
                     </a>
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -100px;">
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -80px;">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li><a href="about.php"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
@@ -60,8 +102,16 @@
     <div class="container">
       <div class="row main">
         <div class="main-login main-center">
-          <form name="login"  method="post" action="">
-            <div class="form-group">
+          <form name="login"  method="post" action="login.php">
+            <div>
+                <?php if(!empty($errors)) {?>
+                        <?php foreach ($errors as $key => $value) {
+                        ?>
+                        <div class='alert alert-danger'><i class='glyphicon glyphicon-warning-sign'></i>
+                        <b>Error:</b> <?php echo $value;
+                        } ?>
+                        </div>
+            <?php } ?>
             </div>
             <div class="form-group">
               <label for="email" class="cols-sm-2 control-label">Email</label>
@@ -72,7 +122,6 @@
                 </div>
               </div>
             </div>
-
             <div class="form-group">
               <label for="password" class="cols-sm-2 control-label">Password</label>
               <div class="cols-sm-10">
@@ -84,10 +133,12 @@
             </div>
 
             <div class="form-group ">
-              <input type="submit" class="btn btn-success btn-lg btn-block login-button" name = "submit" value="Login">
+              <input type="submit" class="btn btn-success btn-lg btn-block login-button" name = "lg" value="Login" style="border-radius: 0;">
             </div>
             <div>
-              <p> Dont have an Account?? Register <a href="register.php">Here</a></p>
+                <center>
+                    <p> Not registered? <a href="register.php">Create an account</a></p>
+                </center>
             </div>
           </form>
         </div>
