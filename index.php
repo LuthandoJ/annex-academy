@@ -64,7 +64,7 @@
                       <h1 class="title">Welcome To <strong class="clr">Annex Academy</strong>. Learn today, lead tomorrow..</h1>
                                 <h4 class="h7">Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
                                 <br />
-                                <a href="#" class="btn btn-danger btn-raised btn-lg">
+                                <a href="#" class="btn btn-danger btn-raised btn-lg" style="border-radius: 0;">
                         <i class="fa fa-play"></i> Watch video
                       </a>
                 </div>
@@ -139,7 +139,7 @@
         </div>
       </div>
 
-       <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+       <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left" style="border-radius: 0;">
        <span class="fa fa-chevron-up"></span></a>
 
     <!-- jQuery -->
