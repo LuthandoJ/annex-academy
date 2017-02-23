@@ -101,7 +101,7 @@
     <!-- Page Content -->
     <div class="container">
       <div class="row main">
-        <div class="main-login main-center">
+        <div class="main-login main-center" style="margin-top: -10px;">
           <form name="login"  method="post" action="login.php">
             <div>
                 <?php if(!empty($errors)) {?>
