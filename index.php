@@ -42,12 +42,13 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -80px;">
                 <ul class="nav navbar-nav">
-                    <li><a href="#"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
-                    <li><a href="#"><i class="fa fa-book" aria-hidden="true"></i> Tutorials</a></li>
-                    <li><a href="#"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
-                    <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
-                    <li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Register</a></li>
-                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
+                    <li class="active"><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                    <li><a href="about.php"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
+                    <li><a href="tutorials.php"><i class="fa fa-book" aria-hidden="true"></i> Tutorials</a></li>
+                    <li><a href="recources.php"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
+                    <li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+                    <li><a href="register.php"><i class="fa fa-pencil" aria-hidden="true"></i> Register</a></li>
+                    <li><a href="contact.php"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
