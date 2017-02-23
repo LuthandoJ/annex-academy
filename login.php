@@ -107,7 +107,7 @@
                 <?php if(!empty($errors)) {?>
                         <?php foreach ($errors as $key => $value) {
                         ?>
-                        <div class='alert alert-danger'><i class='glyphicon glyphicon-warning-sign'></i>
+                        <div class='alert alert-danger alert-dismissable'><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><i class='glyphicon glyphicon-warning-sign'></i>
                         <b>Error:</b> <?php echo $value;
                         } ?>
                         </div>

@@ -126,13 +126,13 @@
                     <?php if(!empty($errors)) {?>
                             <?php foreach ($errors as $key => $value) {
                             ?>
-                            <div class='alert alert-warning'><i class='glyphicon glyphicon-warning-sign'></i>
+                            <div class='alert alert-warning alert-dismissable'><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><i class='glyphicon glyphicon-warning-sign'></i>
                             <b>Error:</b> <?php echo $value;
                             } ?>
                             </div>
                 <?php } ?>
                 <?php if ($reg_success) {
-                        ?>  <div class='alert alert-success'><i class='glyphicon glyphicon-check'></i> 
+                        ?>  <div class='alert alert-success alert-dismissable'><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><i class='glyphicon glyphicon-check'></i> 
                                 <b> Registration Successful:</b> Login <a href="login.php"><strong>here</strong></a>
                             </div><?php
                         } ?>
