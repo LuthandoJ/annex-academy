@@ -42,10 +42,10 @@
                     $errors[] = '  "Only letters and white space allowed <b>First Name</b>"';
                 }
             }else{
-                $errors[] = '  Invalid email address';
+                $errors[] = '  "Invalid email address"';
             }
         }else{
-            $errors[] = '  Passwords don\'t match';
+            $errors[] = '  "Passwords don\'t match"';
         }
 
     }
