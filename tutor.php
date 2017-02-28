@@ -63,6 +63,100 @@
 
 
     <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-8">
+                        <h2>Marcelo Martins</h2>
+                        <p><strong>About: </strong> Web Designer, UI/UX Engineer</p>
+                        <p><strong>Hobbies: </strong> Indie music while drifting in my 540i BMW. </p>
+                        <p><strong>Skills: </strong>
+                            <span class="label label-info tags">html5</span> 
+                            <span class="label label-info tags">css3</span>
+                            <span class="label label-info tags">jquery</span>
+                            <span class="label label-info tags">bootstrap3</span>
+                        </p>
+                        <p><strong>Stats: </strong>
+                            <span class="label label-primary"><i class="fa fa-user"></i> 20,7K followers</span>
+                            <span class="label label-danger"><i class="fa fa-eye"></i> 245 Views</span>
+                        </p>
+                    </div><!--/col-->          
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <ul class="list-inline text-center" title="Social Links">
+                            <li><a href="http://twitter.com" title="Twitter Feed" rel="nofollow"><span class="fa fa-twitter fa-lg"></span></a></li>
+                            <li><a href="http://www.facebook.com" title="Facebook Wall" rel="nofollow"><span class="fa fa-facebook fa-lg"></span></a></li>
+                            <li><a href="http://www.linkedin.com" title="LinkedIn Profile" rel="nofollow"><span class="fa fa-linkedin fa-lg"></span></a></li>
+                            <li><a href="http://www.skype.com" title="Skype" rel="nofollow"><span class="fa fa-skype fa-lg"></span></a></li>
+                        </ul>
+                        <img src="http://api.randomuser.me/portraits/men/49.jpg" class="center-block img-circle img-responsive">
+                        <ul class="list-inline ratings text-center" title="Ratings">
+                            <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                            <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                            <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                            <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                            <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
+                        </ul>
+                    </div><!--/col-->
+                </div><!--/row-->
+            </div><!--/panel-body-->     
+          </div><!--/panel-->   
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <h3>Tutorials</h3>
+        <hr style="border-top: 1px solid #81C784;">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-18 col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img src="http://placehold.it/500x250/EEE">
+                  <div class="caption">
+                    <h4>Thumbnail label</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-18 col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img src="http://placehold.it/500x250/EEE">
+                  <div class="caption">
+                    <h4>Thumbnail label</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-18 col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img src="http://placehold.it/500x250/EEE">
+                  <div class="caption">
+                    <h4>Thumbnail label</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-18 col-sm-6 col-md-3">
+              <div class="thumbnail">
+                <img src="http://placehold.it/500x250/EEE">
+                  <div class="caption">
+                    <h4>Thumbnail label</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                </div>
+              </div>
+            </div>
+        </div><!--/row-->
+      </div><!--/container -->
+    </div><!--/container -->
     
 
        <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
