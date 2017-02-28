@@ -66,109 +66,11 @@
 
 
     <!-- Page Content -->
-    <div class="row" style="padding-left: 50px;">
-        <div class="col-sm-2" style="margin-top: 90px;">
-            <!--left col-->
-            <ul class="list-group">
-                <li class="list-group-item text-muted" contenteditable="false">Profile</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Joined</strong></span> 2.13.2014</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Last seen</strong></span> Yesterday</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Real name</strong></span> JosephDoe</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Role: </strong></span> Pet Sitter</li>
-            </ul>
-
-            <ul class="list-group">
-                <li class="list-group-item text-muted">Activity <i class="fa fa-dashboard fa-1x"></i></li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Shares</strong></span> 125</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Likes</strong></span> 13</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Posts</strong></span> 37</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Followers</strong></span> 78</li>
-            </ul>
-        </div>
-
-        <div class="col-sm-7">
-            <!--left col-->
-            <h3>Public Profile</h3>
-            <hr>
-            <form class="form" action="##" method="post">
-                <div class="form-group">
-                    <div class="col-xs-4">
-                        <label for="first_name"><h4>First name</h4></label>
-                        <input type="text" class="form-control" name="first_name" id="first_name" placeholder="first name" title="enter your first name if any.">
-                    </div>
-                </div>
-                      <div class="form-group">
-                          
-                          <div class="col-xs-4">
-                            <label for="last_name"><h4>Last name</h4></label>
-                              <input type="text" class="form-control" name="last_name" id="last_name" placeholder="last name" title="enter your last name if any.">
-                          </div>
-                      </div>
-          
-                      <div class="form-group">
-                          
-                          <div class="col-xs-4">
-                              <label for="phone"><h4>Phone</h4></label>
-                              <input type="text" class="form-control" name="phone" id="phone" placeholder="enter phone" title="enter your phone number if any.">
-                          </div>
-                      </div>
-          
-                      <div class="form-group">
-                          <div class="col-xs-4">
-                             <label for="mobile"><h4>Mobile</h4></label>
-                              <input type="text" class="form-control" name="mobile" id="mobile" placeholder="enter mobile number" title="enter your mobile number if any.">
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          
-                          <div class="col-xs-4">
-                              <label for="email"><h4>Email</h4></label>
-                              <input type="email" class="form-control" name="email" id="email" placeholder="you@email.com" title="enter your email.">
-                          </div>
-                      </div>
-                      <div class="form-group">
-                          
-                          <div class="col-xs-4">
-                              <label for="email"><h4>Location</h4></label>
-                              <input type="email" class="form-control" id="location" placeholder="somewhere" title="enter a location">
-                          </div>
-                      </div>
-                <div class="form-group">                         
-                    <div class="col-xs-4">
-                        <label for="password"><h4>Password</h4></label>
-                        <input type="password" class="form-control" name="password" id="password" placeholder="password" title="enter your password.">
-                    </div>
-                </div>
-                <div class="form-group">    
-                    <div class="col-xs-4">
-                        <label for="password2"><h4>Verify</h4></label>
-                        <input type="password" class="form-control" name="password2" id="password2" placeholder="password2" title="enter your password2.">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-10">
-                        <br>
-                        <button class="btn btn-lg btn-success" type="submit"><i class="glyphicon glyphicon-ok-sign"></i> Save</button>
-                        <button class="btn btn-lg" type="reset"><i class="glyphicon glyphicon-repeat"></i> Reset</button>
-                    </div>
-                </div>
-            </form>        
-        </div>
-
-         <div class="col-sm-2" style="margin-top: 90px;">
-            <!--left col-->
-            <ul class="list-group">
-                <li class="list-group-item text-muted" contenteditable="false">Profile</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Joined</strong></span> 2.13.2014</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Last seen</strong></span> Yesterday</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Real name</strong></span> JosephDoe</li>
-                <li class="list-group-item text-right"><span class="pull-left"><strong class="">Role: </strong></span> Pet Sitter</li>
-            </ul>
-        </div>
-    </div>
+    
 
        <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
        <span class="fa fa-chevron-up"></span></a>
+
     <footer class="footer-distributed" style="background-color: #363435;">
         <div class="footer-left">
             <img style="max-width:250px; margin-top: -30px;"
