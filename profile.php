@@ -1,6 +1,3 @@
-<?php
-    $fname = ""; $lname = ""; $email = "";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
