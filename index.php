@@ -58,7 +58,7 @@
 
     <!-- Page Content -->
     <header class="business-header">
-        <div class="container"  style="padding-top: 70px;">
+        <div class="container"  style="padding-top: 10px;">
             <div class="row">
                <div class="col-md-6">
                       <h1 class="title">Welcome To <strong class="clr">Annex Academy</strong>. Learn today, lead tomorrow..</h1>
@@ -72,7 +72,7 @@
         </div>
     </header>
     <br>
-    <div class="container">
+    <div class="container" style="padding-top: 15px;">
           <section id="services">
               <div class="container">
                   <div class="row">
@@ -204,13 +204,13 @@
                     ·
                     <a href="contact.html">Contact</a>
                 </p>
-                <p class="footer-company-name">Dent Removal Specialist &copy; 2017</p>
-                <p class="footer-company-name"><a href="assets/docs/DRS DENT REMOVAL SPECIALIST SERVICE CONTRACT.docx">Terms & Conditions</a></p>
+                <p class="footer-company-name">Annex Academy &copy; 2017</p>
+                <p class="footer-company-name"><a href="#">Terms & Conditions</a></p>
         </div>
         <div class="footer-center">
             <div>
                 <i class="fa fa-map-marker"></i>
-                <p><span>Unit 14, N1 Park</span> Sandpiper Crescent, Okavango Business Park</p>
+                <p><span>About Annex Academy</span> About Annex AcademyAbout Annex Academy</p>
             </div>
             <div>
                 <i class="fa fa-phone"></i>
@@ -218,14 +218,14 @@
             </div>
             <div>
                 <i class="fa fa-envelope"></i>
-                <p><a href="mailto:info@drsgroup.co.za">info@drsgroup.co.za</a></p>
+                <p><a href="mailto:info@drsgroup.co.za">About Annex Academy</a></p>
             </div>
         </div>
 
         <div class="footer-right">
             <p class="footer-company-about">
-                <span>About DRS</span>
-                DRS Dent Removal Specialist is a company that offers Mobile Paintless Dent Removal, Hail Damage, Buff and Polish, Head Light Restoration, Mag and Rim Repairs, Minor scratch removal with reasonable prices, good quality and exceptional service.
+                <span>About Annex Academy</span>
+                About Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex AcademyAbout Annex Academy
             </p>
             <div class="footer-icons">
                 <a href="https://www.facebook.com/DRS-Dent-Removal-Specialist-215227088652273/"><i class="fa fa-facebook"></i></a>
