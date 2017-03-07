@@ -126,7 +126,7 @@
                   <div class="caption">
                     <h4>Thumbnail label</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
                 </div>
               </div>
             </div>
@@ -137,7 +137,7 @@
                   <div class="caption">
                     <h4>Thumbnail label</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@
                   <div class="caption">
                     <h4>Thumbnail label</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@
                   <div class="caption">
                     <h4>Thumbnail label</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-default btn-xs pull-right" role="button"><i class="glyphicon glyphicon-edit"></i></a> <a href="#" class="btn btn-info btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a>
+                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
                 </div>
               </div>
             </div>
@@ -221,7 +221,6 @@
                 <p><a href="mailto:info@drsgroup.co.za">About Annex Academy</a></p>
             </div>
         </div>
-
         <div class="footer-right">
             <p class="footer-company-about">
                 <span>About Annex Academy</span>
