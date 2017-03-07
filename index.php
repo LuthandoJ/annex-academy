@@ -117,57 +117,79 @@
               </div>
           </section>
           <br>
+          <section id="about">
+            <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                  </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="col-lg-18">
+                <div class="thumbnail">
+                    <div class="caption">
+                      <h3 class="clr">Annex Academy <i class="fa fa-book"></i> </h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                      <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-facebook"></i> Like Us</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-twitter"></i> Follow Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <br>
           <center><h2 class="section-heading"><i class="fa fa-file-video-o" aria-hidden="true"></i> Turorials</h2></center>
           <br>
+
           <div class="container">
-          <div class="row">
-            <div class="col-xs-18 col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="http://placehold.it/500x250/EEE">
-                  <div class="caption">
-                    <h4>Thumbnail label</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+            <div class="row">
+              <div class="col-xs-18 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/500x250/EEE">
+                    <div class="caption">
+                      <h4>Thumbnail label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                      <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-xs-18 col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="http://placehold.it/500x250/EEE">
-                  <div class="caption">
-                    <h4>Thumbnail label</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+              <div class="col-xs-18 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/500x250/EEE">
+                    <div class="caption">
+                      <h4>Thumbnail label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                      <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div class="col-xs-18 col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="http://placehold.it/500x250/EEE">
-                  <div class="caption">
-                    <h4>Thumbnail label</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+              <div class="col-xs-18 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/500x250/EEE">
+                    <div class="caption">
+                      <h4>Thumbnail label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                      <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="col-xs-18 col-sm-6 col-md-3">
-              <div class="thumbnail">
-                <img src="http://placehold.it/500x250/EEE">
-                  <div class="caption">
-                    <h4>Thumbnail label</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
-                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+              <div class="col-xs-18 col-sm-6 col-md-3">
+                <div class="thumbnail">
+                  <img src="http://placehold.it/500x250/EEE">
+                    <div class="caption">
+                      <h4>Thumbnail label</h4>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                      <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+                  </div>
                 </div>
               </div>
-            </div>
-        </div><!--/row-->
-        <center>
-          <a href="tutorials.php" class="btn btn-info btn-raised"><i class="fa fa-play"></i> More Tutorials</a>
-        </center>
-      </div><!--/container -->
+          </div><!--/row-->
+            <center>
+              <a href="tutorials.php" class="btn btn-info btn-raised"><i class="fa fa-play"></i> More Tutorials</a>
+            </center>
+          </div><!--/container -->
           
             <br>
             <div class="container">
