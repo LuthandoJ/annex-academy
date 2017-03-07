@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/footer-distributed-with-address-and-phones.css">
+    <style type="text/css">.btn{border-radius: 0;}</style>
 
 </head>
 
@@ -53,10 +54,53 @@
         </div>
         <!-- /.container -->
     </nav>
-
-
+    <header class="business">
+        <div class="container">
+            <div class="row">
+                <center>
+               <div class="col-md-6" style="padding-top: 100px;">
+                    <h2 class="title">Home<i class="fa fa-home"></i>\ <strong class="clr">Tutorials</strong></h2>
+                </div>
+                </center>
+            </div>
+        </div>
+    </header>
+    <center><h2 class="section-heading"><i class="fa fa-file-video-o" aria-hidden="true"></i> Turorials</h2></center>
     <!-- Page Content -->
-    
+    <div class="container">
+        <center>
+            <div>
+                <button class="btn btn-primary filter-button" data-filter="all">All</button>
+                <button class="btn btn-default filter-button" data-filter="math">Mathematics</button>
+                <button class="btn btn-default filter-button" data-filter="ap_math">AP Mathematics</button>
+                <button class="btn btn-default filter-button" data-filter="phys">Physics</button>
+                <button class="btn btn-default filter-button" data-filter="bio">Life Sciences</button>
+                <button class="btn btn-default filter-button" data-filter="lang">Languages</button>
+                <button class="btn btn-default filter-button" data-filter="hist">History</button>
+                <button class="btn btn-default filter-button" data-filter="geo">Geography</button>
+                <button class="btn btn-default filter-button" data-filter="prog">Programming</button>
+                <button class="btn btn-default filter-button" data-filter="cat">CAT</button>
+            </div>
+        </center>
+        <br/>
+
+        
+        <div class="row">
+
+            <div class="col-xs-18 col-sm-6 col-md-3 filter math" >
+              <div class="thumbnail">
+                <img src="http://placehold.it/500x250/EEE">
+                  <div class="caption">
+                    <h4>Thumbnail label</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, soluta, eligendi doloribus sunt minus amet sit debitis repellat. Consectetur, culpa itaque odio similique suscipit</p>
+                    <a href="#" class="btn btn-info btn-xs" role="button"><i class="fa fa-thumbs-o-up"></i> Like</a> <a href="#" class="btn btn-default btn-xs" role="button"><i class="fa fa-eye"></i> Watch</a>
+                </div>
+              </div>
+            </div>
+
+        </div>
+
+    </div>
 
        <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
        <span class="fa fa-chevron-up"></span></a>
@@ -133,7 +177,26 @@
 
 });
 </script>
+<script type="text/javascript">
+    $(document).ready(function(){
 
+    $(".filter-button").click(function(){
+        var value = $(this).attr('data-filter');
+        
+        if(value == "all")
+        {
+            $('.filter').show('1000');
+        }
+        else
+        {
+            $(".filter").not('.'+value).hide('3000');
+            $('.filter').filter('.'+value).show('3000');
+            
+        }
+    });
+
+});
+</script>
 </body>
 
 </html>
