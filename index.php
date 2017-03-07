@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/footer-distributed-with-address-and-phones.css">
+    <style type="text/css">.btn{border-radius: 0;}</style>
 
 </head>
 
@@ -64,7 +65,7 @@
                       <h1 class="title">Welcome To <strong class="clr">Annex Academy</strong>. Learn today, lead tomorrow..</h1>
                                 <h4 class="h7">Every landing page needs a small description after the big bold title, that's why we added this text here. Add here all the information that can make you or your product create the first impression.</h4>
                                 <br />
-                                <a href="#" class="btn btn-danger btn-raised btn-lg" style="border-radius: 0;">
+                                <a href="#" class="btn btn-danger btn-raised btn-lg">
                         <i class="fa fa-play"></i> Watch video
                       </a>
                 </div>
@@ -163,6 +164,9 @@
               </div>
             </div>
         </div><!--/row-->
+        <center>
+          <a href="tutorials.php" class="btn btn-info btn-raised"><i class="fa fa-play"></i> More Tutorials</a>
+        </center>
       </div><!--/container -->
           
             <br>
@@ -186,7 +190,7 @@
         </div>
       </div>
 
-       <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left" style="border-radius: 0;">
+       <a id="back-to-top" href="#" class="btn btn-success btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
        <span class="fa fa-chevron-up"></span></a>
 
     <footer class="footer-distributed" style="background-color: #363435;">
