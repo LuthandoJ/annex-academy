@@ -1,3 +1,7 @@
+<?php
+    include_once 'assets/include/config.php';
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,6 +50,14 @@
                     <li><a href="about.php"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
                     <li><a href="tutorials.php"><i class="fa fa-book" aria-hidden="true"></i> Tutorials</a></li>
                     <li class="active"><a href="recources.php"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
+                    <?php 
+                        if(isset($_SESSION['user_id'])) {
+
+                        }else{
+                    ?>
+                    <li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
+                    <li><a href="register.php"><i class="fa fa-pencil" aria-hidden="true"></i> Register</a></li>
+                    <?php } ?>
                     <li><a href="contact.php"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a></li>
                 </ul>
             </div>
