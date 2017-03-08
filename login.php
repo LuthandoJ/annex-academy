@@ -27,6 +27,7 @@
             if($query->num_rows == 1) {             
                 $_SESSION['logged_in'] = true;
                 $_SESSION['user_id'] = $result['id'];
+                $_SESSION['user'] = $result['first_name']." ".$result['last_name'];
 
                 header('location:home.php');
                 exit();
