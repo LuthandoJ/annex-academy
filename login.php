@@ -11,8 +11,8 @@
     if (isset($_POST['lg'])) {
         $errors = array();
         
-        $email = $_POST['email'];
-        $password = md5($_POST['password']);
+        $email = mysqli_real_escape_string($connect, $_POST['email']);
+        $password = md5(mysqli_real_escape_string($connect, $_POST['password']));
 
         $sql = "SELECT * FROM users WHERE email = '$email'";
         $query = $connect->query($sql);
