@@ -55,7 +55,7 @@
                     <li><a href="tutorials.php"><i class="fa fa-book" aria-hidden="true"></i> Tutorials</a></li>
                     <li><a href="recources.php"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
                     <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo $_SESSION['user'];?><b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="profile.php"><i class="fa fa-fw fa-user"></i> Profile</a></li>
                         <li><a href="settings.php"><i class="fa fa-fw fa-gear"></i> Settings</a></li>
