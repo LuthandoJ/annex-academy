@@ -12,11 +12,11 @@
 
         $errors = array();
 
-        $password = $_POST['password'];
-        $rpassword = $_POST['rpassword'];
-        $fname = validate_input($_POST['fname']);
-        $lname = validate_input($_POST['lname']);
-        $email = validate_input($_POST['email']);
+        $password = mysqli_real_escape_string($connect,$_POST['password']);
+        $rpassword = mysqli_real_escape_string($connect,$_POST['rpassword']);
+        $fname = validate_input(mysqli_real_escape_string($connect,$_POST['fname']));
+        $lname = validate_input(mysqli_real_escape_string($connect,$_POST['lname']));
+        $email = validate_input(mysqli_real_escape_string($connect,$_POST['email']));
 
         
         if ($password == $rpassword) {
