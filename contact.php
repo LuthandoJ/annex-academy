@@ -52,7 +52,9 @@
                     <li><a href="recources.php"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
                      <?php 
                         if(isset($_SESSION['user_id'])) {
-
+                    ?>
+                        <li><a href="home.php"><i class="fa fa-dashboard" aria-hidden="true"></i> Dashboard</a></li>
+                    <?php 
                         }else{
                     ?>
                     <li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
