@@ -101,7 +101,7 @@ body {
 }
 
 .business{
-    height: 200px;
+    height: 250px;
     background: url('../images/banner.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -169,4 +169,13 @@ h1{
 
 .main{
   margin-top: 70px;
+}
+
+.search{
+  width: 500px;
+  height: 180px;
+  text-align: center;
+  background-color: rgba(52, 73, 94, 0.7);
+  border-radius: 4px;
+  margin: 0 auto;
 }

@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/footer-distributed-with-address-and-phones.css">
-    <style type="text/css">.btn{border-radius: 0;}</style>
+    <style type="text/css">.btn{border-radius: 0;}.container input{height: 45px;width: 300px;font-size: 18px;margin-bottom: 20px;}</style>
 
 </head>
 
@@ -152,7 +152,16 @@
           <br>
           <center><h2 class="section-heading"><i class="fa fa-file-video-o" aria-hidden="true"></i> Turorials</h2></center>
           <br>
-
+          <div class="container search">
+            <center>
+              <form style="padding-top: 70px">
+                <div class="form-input">
+                  <input type="text" class="form-control" name="search" id="search"  placeholder="Search" required>
+                </div>
+              </form>
+            </center>
+          </div>
+          <br>
           <div class="container">
             <div class="row">
               <div class="col-xs-18 col-sm-6 col-md-3">

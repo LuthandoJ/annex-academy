@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/footer-distributed-with-address-and-phones.css">
-    <style type="text/css">.btn{border-radius: 0;}</style>
+    <style type="text/css">.btn{border-radius: 0;}.container input{height: 45px;width: 300px;font-size: 18px;margin-bottom: 20px;}</style>
 
 </head>
 
@@ -68,15 +68,14 @@
         </div>
         <!-- /.container -->
     </nav>
+
     <header class="business">
-        <div class="container">
-            <div class="row">
-                <center>
-               <div class="col-md-6" style="padding-top: 100px;">
-                    <h2 class="title">Home<i class="fa fa-home"></i>\ <strong class="clr">Tutorials</strong></h2>
-                </div>
-                </center>
-            </div>
+        <div class="container search">
+            <center>
+                <form style="padding-top: 70px">
+                    <input type="text" class="form-control" name="search" id="search"  placeholder="Search" required>
+                </form>
+            </center>
         </div>
     </header>
     <center><h2 class="section-heading"><i class="fa fa-file-video-o" aria-hidden="true"></i> Turorials</h2></center>
