@@ -184,7 +184,9 @@
             </div>
 
             <div class="form-group ">
-              <input type="submit" class="btn btn-success btn-lg btn-block login-button btnCool" name = "reg" value="Register" style="border-radius: 0;">
+                <center>
+                    <input type="submit" class="btn btn-success btnCool" name = "reg" value="REGISTER" style="border-radius: 0;">
+                </center>
             </div>
             <div>
                 <center>

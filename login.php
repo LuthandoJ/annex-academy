@@ -56,7 +56,7 @@
     <title>Annex Academy | Login</title>
 
     <!--Favicon-->
-     <link rel="icon" type="image/png" href="#">
+    <link rel="icon" type="image/png" href="#">
     <!--CSS Files -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
@@ -134,7 +134,9 @@
             </div>
 
             <div class="form-group ">
-              <input type="submit" class="btn btn-success btn-lg btn-block login-button btnCool" name = "lg" value="Login" style="border-radius: 0;">
+                <center>
+                    <input type="submit" class="btn btn-success btnCool" name = "lg" value="LOGIN" style="border-radius: 0;">
+                </center>
             </div>
             <div>
                 <center>
