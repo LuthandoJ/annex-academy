@@ -138,57 +138,57 @@
                         } ?>
                 </div>
              <div class="form-group">
-              <label for="fname" class="cols-sm-2 control-label">First Name</label>
+              <label for="fname" class="cols-sm-2 control-label" style="color: #fff;">First Name</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-user" aria-hidden="true"></i>
                   <input type="text" class="form-control" name="fname" id="fname"  placeholder="Enter your First Name" required value="<?php echo $fname;?>">
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <label for="lname" class="cols-sm-2 control-label">Last Name</label>
+              <label for="lname" class="cols-sm-2 control-label" style="color: #fff;">Last Name</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-user" aria-hidden="true"></i>
                   <input type="text" class="form-control" name="lname" id="lname"  placeholder="Enter your Last Name" required value="<?php echo $lname;?>">
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <label for="email" class="cols-sm-2 control-label">Email</label>
+              <label for="email" class="cols-sm-2 control-label" style="color: #fff;">Email</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
                   <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email" required value="<?php echo $email;?>">
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <label for="password" class="cols-sm-2 control-label">Password</label>
+              <label for="password" class="cols-sm-2 control-label" style="color: #fff;">Password</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
                   <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password" required>
                 </div>
               </div>
             </div>
             <div class="form-group">
-              <label for="rpassword" class="cols-sm-2 control-label">Repeat Password</label>
+              <label for="rpassword" class="cols-sm-2 control-label" style="color: #fff;">Repeat Password</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
                   <input type="password" class="form-control" name="rpassword" id="rpassword"  placeholder="Repeat your Password" required>
                 </div>
               </div>
             </div>
 
             <div class="form-group ">
-              <input type="submit" class="btn btn-success btn-lg btn-block login-button" name = "reg" value="Register" style="border-radius: 0;">
+              <input type="submit" class="btn btn-success btn-lg btn-block login-button btnCool" name = "reg" value="Register" style="border-radius: 0;">
             </div>
             <div>
                 <center>
-                    <p>Alredy a member? Login <a href="login.php">here</a></p>
+                    <p style="color: #fff;">Alredy a member? Login <a href="login.php">here</a></p>
                 </center>
             </div>
           </form>
