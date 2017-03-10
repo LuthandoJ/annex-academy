@@ -115,7 +115,7 @@
             <?php } ?>
             </div>
             <div class="form-group">
-              <label for="email" class="cols-sm-2 control-label">Email</label>
+              <label for="email" class="cols-sm-2 control-label" style="color: #fff;">Email</label>
               <div class="cols-sm-10">
                 <div class="left-inner-addon">
                   <i class="fa fa-envelope"></i>
@@ -124,7 +124,7 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="password" class="cols-sm-2 control-label">Password</label>
+              <label for="password" class="cols-sm-2 control-label" style="color: #fff;">Password</label>
               <div class="cols-sm-10">
                 <div class="left-inner-addon">
                   <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
@@ -134,11 +134,11 @@
             </div>
 
             <div class="form-group ">
-              <input type="submit" class="btn btn-success btn-lg btn-block login-button" name = "lg" value="Login" style="border-radius: 0;">
+              <input type="submit" class="btn btn-success btn-lg btn-block login-button btnCool" name = "lg" value="Login" style="border-radius: 0;">
             </div>
             <div>
                 <center>
-                    <p> Not registered? <a href="register.php">Create an account</a></p>
+                    <p style="color: #fff;"> Not registered? <a href="register.php">Create an account</a></p>
                 </center>
             </div>
           </form>
