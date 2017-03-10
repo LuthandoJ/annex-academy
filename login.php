@@ -117,8 +117,8 @@
             <div class="form-group">
               <label for="email" class="cols-sm-2 control-label">Email</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-envelope"></i>
                   <input type="text" class="form-control" name="email" id="email"  placeholder="Enter your Email" required>
                 </div>
               </div>
@@ -126,8 +126,8 @@
             <div class="form-group">
               <label for="password" class="cols-sm-2 control-label">Password</label>
               <div class="cols-sm-10">
-                <div class="input-group">
-                  <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                <div class="left-inner-addon">
+                  <i class="fa fa-lock fa-lg" aria-hidden="true"></i>
                   <input type="password" class="form-control" name="password" id="password"  placeholder="Enter your Password" required>
                 </div>
               </div>
