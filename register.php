@@ -79,7 +79,7 @@
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/font-awesome.min.css" />
     <link href="assets/css/style.css" rel="stylesheet">
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body style="margin-top: 50px;margin-bottom: 50px;background: none;">
@@ -182,7 +182,9 @@
                 </div>
               </div>
             </div>
-
+            <div class="form-group">
+                <div class="g-recaptcha" data-sitekey="6LfX3BgUAAAAAAWXLX-8KzNCRU_b2MeU0q4__ReI" style="transform:scale(0.84);-webkit-transform:scale(0.84);transform-origin:0 0;-webkit-transform-origin:0 0;"></div>
+            </div>
             <div class="form-group ">
                 <center>
                     <input type="submit" class="btn btn-success btnCool" name = "reg" value="REGISTER" style="border-radius: 0;">
@@ -202,7 +204,5 @@
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-
 </body>
-
 </html>
