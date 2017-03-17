@@ -8,6 +8,7 @@
     }
      $fname = ""; $lname = ""; $email = "";
      $reg_success = false;
+     
     if (isset($_POST['reg'])) {
 
         $errors = array();
