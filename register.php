@@ -71,11 +71,12 @@
         }
         $secretKey = "6LfX3BgUAAAAADwhI7fGQlob9MrNIfIYy56wtXTK";
         $ip = $_SERVER['REMOTE_ADDR'];
-        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
+        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".rawurlencode($secretKey)."&response=".rawurlencode($captcha)."&remoteip=".rawurlencode($ip));
         $responseKeys = json_decode($response,true);
         if(intval($responseKeys["success"]) !== 1) {
           echo '<h2>You are spammer ! Get the @$%K out</h2>';
-          echo "".$response;
+          //echo "".$_POST['g-recaptcha-response'];
+          echo "".$responseKeys;
         } else {
           echo '<h2>Thanks for posting comment.</h2>';
         }
