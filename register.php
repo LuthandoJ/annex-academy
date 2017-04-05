@@ -12,7 +12,7 @@
      $fname = ""; $lname = ""; $email = "";
      $reg_success = false;
 
-    /*if (isset($_POST['reg'])) {
+    if (isset($_POST['reg'])) {
 
         $errors = array();
 
@@ -59,29 +59,7 @@
         $str = stripslashes($data);
         $str = htmlspecialchars($data);
         return $str;
-    }*/
-    
-    if(isset($_POST['reg'])){
-        if(isset($_POST['g-recaptcha-response'])){
-          $captcha=$_POST['g-recaptcha-response'];
-        }
-        if(!$captcha){
-          echo '<h2>Please check the the captcha form.</h2>';
-          exit;
-        }
-        $secretKey = "6LfX3BgUAAAAADwhI7fGQlob9MrNIfIYy56wtXTK";
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".rawurlencode($secretKey)."&response=".rawurlencode($captcha)."&remoteip=".rawurlencode($ip));
-        $responseKeys = json_decode($response,true);
-        if(intval($responseKeys["success"]) !== 1) {
-          echo '<h2>You are spammer ! Get the @$%K out</h2>';
-          //echo "".$_POST['g-recaptcha-response'];
-          echo "".$responseKeys;
-        } else {
-          echo '<h2>Thanks for posting comment.</h2>';
-        }
-    }    
-
+    }
 ?>
 <!DOCTYPE html>
 <html class="full" lang="en">
