@@ -70,13 +70,7 @@
     </nav>
 
     <header class="business">
-        <div class="container search">
-            <center>
-                <form style="padding-top: 70px">
-                    <input type="text" class="form-control" name="search" id="search"  placeholder="Search" required>
-                </form>
-            </center>
-        </div>
+
     </header>
     <center><h2 class="section-heading"><i class="fa fa-file-video-o" aria-hidden="true"></i> Turorials</h2></center>
     <!-- Page Content -->
