@@ -1,6 +1,6 @@
 <?php
     
-    error_reporting(0);
+    #error_reporting(0);
 
     include_once 'assets/include/config.php';
     session_start();
@@ -104,7 +104,7 @@
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1" style="margin-right: -80px;">
                     <ul class="nav navbar-nav">
                         <li><a href="index.php"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                        <li><a href="about.php"><i class="fa fa-info" aria-hidden="true"></i> About</a></li>
+                        <li><a href="about.php"><i class="fa fa-info" aria-hidden="true"></i> About Us</a></li>
                         <li><a href="tutorials.php"><i class="fa fa-book" aria-hidden="true"></i> Tutorials</a></li>
                         <li><a href="recources.php"><i class="fa fa-question-circle" aria-hidden="true"></i> Recources</a></li>
                         <li><a href="login.php"><i class="fa fa-user" aria-hidden="true"></i> Login</a></li>
